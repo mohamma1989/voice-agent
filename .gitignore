@@ -1,2 +1,18 @@
-/aiauto
+# Python virtual environment
+venv/
+aiauto/
+__pycache__/
+*.pyc
+
+# Local audio recordings & model caches
+*.wav
+*.mp3
+huggingface/
+
+# Generated task execution scripts & runtime test files
+task.py
+test-project/
 input.wav
+
+# Environment files (if you ever use a .env file)
+.env
